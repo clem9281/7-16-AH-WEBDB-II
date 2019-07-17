@@ -1,0 +1,35 @@
+{
+  "name": "7-16-AH-WEBDB-II",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clem9281/7-16-AH-WEBDB-II.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clem9281/7-16-AH-WEBDB-II/issues"
+  },
+  "homepage": "https://github.com/clem9281/7-16-AH-WEBDB-II#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "knex": "^0.19.0",
+    "knex-cleaner": "^1.2.1",
+    "morgan": "^1.9.1",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
