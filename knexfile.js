@@ -2,9 +2,9 @@
 
 module.exports = {
   development: {
-    client: 'sqlite3',
+    client: "sqlite3",
     connection: {
-      filename: './data/chicken.db3'
+      filename: "./data/chicken.db3"
     },
     useNullAsDefault: true,
     migrations: {
@@ -13,7 +13,7 @@ module.exports = {
     seeds: {
       directory: "./data/seeds"
     }
-  },
+  }
 
   // staging: {
   //   client: 'postgresql',
@@ -46,5 +46,4 @@ module.exports = {
   //     tableName: 'knex_migrations'
   //   }
   // }
-
 };
